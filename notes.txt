@@ -1,4 +1,4 @@
-F faction Gouvernement :
+Faction Gouvernement :
 
 
 
@@ -11,7 +11,7 @@ inquisiteurs et juges.
 
 
 
-La faction est dirigée par l'Elite 4. Un conseil regroupant les représentants 
+La faction est dirigée par le Conseil 4. Un conseil regroupant les représentants 
 des 4 classes basiques (pas de juges). Les membres du conseil sont les personnes
 avec le plus de points dans leur classe.
 
@@ -36,7 +36,7 @@ l'Eau-De-Roche de la véracité des faits.
 
 
 
-L'Eau-De-Roche est une des pierres pouvoir ("nanites") en  possession du 
+L'Eau-De-Roche est une des pierres de pouvoir ("nanites") en  possession du 
 Gouvernement et ne peut être utilisée que par la lignée des juges. Le seul sort
 connu de l'Eau-De-Roche permet de détecter les mensonges.
 
@@ -66,6 +66,13 @@ Ils peuvent travailler pour un inquisiteur ou vétéran soldat dans les champs,
 dans les labos des érudits. Ils nourissent les autres classes et font marcher
 la faction
 
+Le représentant des travailleurs reçoit le titre "La Main".
+Actuellement, "La Main" est Aaryn Galls (41ans), un ancien paysan qui après avoir 
+intégré les laboratoires du Curatorium (section mécanique) a largement 
+contribué au 1er prototype de charrue à vapeur. Cela lui a valu de
+nombreux votes de la part des travailleurs des chants ainsi qu'une partie
+des points attribués à la création de l'engin.
+
 
 
 Érudits => Alchimiste, Mécaniciens, Chercheurs, Marchands de produits chimiques
@@ -75,14 +82,39 @@ Scientifiques et chercheurs niveau moyen-âge. Ils arrivent presque à faire des
 machines à vapeur. Les érudits vivent dans le Curatorium. Les plus grands
 érudits ont accès au Tribunal et instruisent les futurs juges.
 
+Le représentant des érudits reçoit le titre " Le Grimoire".
+Actuellement, "Le Grimoire" est Laurelyn Stein (63ans), qui est responsable de plus
+de la moitié des informations contenues dans "Le Bestiaire". Elle a dévoué
+sa vie à la recherche des monstres et son savoir représenterait 1/10ème
+des livres du Curatorium selon les rumeurs.
+
 
 
 Soldats => militaires de tout grades. Ils se battent contre le Rempart
 (faction Nain) et les sous-sylvains (faction elfe) pour le contrôle des zones
 importantes. Une unité spécialiste des monstres et de la chasse existe.
 
+Le représentant des soldats reçoit le titre "La Lance".
+Actuellement, "La Lance" est Borg Legae (29ans), qui s'est illustré dans
+un grand nombre d'exploits militaires malgré son jeune âge. Néanmoins,
+sa nomination est dû au fait qu'il n'a jamais été défait en duel après
+61 combats. Sa maîtrise des arts de combats est sans conteste contrairement
+à sa légitimité à représenter les corps militaires.
 
 
-Inquisiteurs => Police religieuse et politiques. Leur mission et de garder le
-contrôle de la cité et de récupérer les différents écrits et vestiges des 
-surfaciens.
+Inquisiteurs => Police religieuse et politique. Leur mission et de garder le
+contrôle de la cité, apporter les hérétiques devant le Tribunal et récupérer
+les différents écrits et vestiges des surfaciens.
+
+Le représentant des inquisiteurs reçoit le titre "Le Manteau".
+Actuellement, "Le Manteau" est Samantha Malleus (26ans), née une soeur libre
+(Peuples libres) dans une tribue proche du Gouvernement, elle a d'abord intégré
+l'armée dans la section des duellistes. Remarquée par ses instructeurs, elle a
+ensuite été mutée sur demande aux corps de la chasse sauvage. De retour d'une
+des chasses de son escouade, la prodige a rapporté une pierre de pouvoir avec
+pour seul demande d'être mutée à l'Inquisition. La récompense en point pour
+cette pierre de pouvoir l'a immédiatement propulsé à la place de "Manteau" du
+Conseil 4. Sa foi est toujours très largement contesté mais ses enquêtes ont
+rarement été infructueuses jusqu'ici et certains racontent que la jeune
+inquisitrice serait capable de vaincre "La Lance" en combat singulier ce qui
+lui vaut de conserver sa place de peu à chaque votes populaires.
