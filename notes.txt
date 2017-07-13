@@ -1,0 +1,88 @@
+F faction Gouvernement :
+
+
+
+Constitué des humains (exclu les tribues des peuples libres)
+
+
+
+La société est divisée en 5 classes, les soldats, érudits, travailleurs,
+inquisiteurs et juges.
+
+
+
+La faction est dirigée par l'Elite 4. Un conseil regroupant les représentants 
+des 4 classes basiques (pas de juges). Les membres du conseil sont les personnes
+avec le plus de points dans leur classe.
+
+(Un vote populaire d'une classe peut éjecter le représentant de sa place au
+conseil)
+
+
+
+Lors des élections, chaque citoyen qui vote pour une personne lui donne un 1pt.
+
+Chaque crime retire un certain nombre de points.
+
+Chaque exploit/bonne action octroit un certain nombre de points.
+
+Ce nombre de points est décidé par la lignée des juges en se basant sur le 
+Codex et leur propre jugement de la situation. En cas de désaccord entre les 
+juges, Gavranth le juge suprême tranche.
+
+Chaque personne accomplissant une bonne action doit remplir un formulaire 
+détaillant les événements et le soumettre au Tribunal en jurant devant
+l'Eau-De-Roche de la véracité des faits.
+
+
+
+L'Eau-De-Roche est une des pierres pouvoir ("nanites") en  possession du 
+Gouvernement et ne peut être utilisée que par la lignée des juges. Le seul sort
+connu de l'Eau-De-Roche permet de détecter les mensonges.
+
+
+
+Les juges ne sont jamais autorisés à quitter le Tribunal car la perte de leur 
+lignée signifiera la fin du Gouvernement.
+
+
+
+Le pouvoir de l'Eau-De-Roche n'est pas parfait et peut être déjoué en jouant sur
+les mots lors du serment. Le syndicat  (mafia) l'a découvert et abuse de cela en
+rachetant/vendant les actions d'autres personnes qui ne sont pas intéressé par
+le pouvoir politique pour asseoir leur place au conseil et influencer sur les
+décisions économique à leur avantage. Le syndicat est constitué de marchands
+(Travailleurs et Érudits. Quelques soldats. Aucun inquisiteurs)
+
+
+
+Les classes :
+
+
+
+Travailleurs => Paysans, Assistants dans les labo, Marchands, Messagers, etc...
+
+Ils peuvent travailler pour un inquisiteur ou vétéran soldat dans les champs,
+dans les labos des érudits. Ils nourissent les autres classes et font marcher
+la faction
+
+
+
+Érudits => Alchimiste, Mécaniciens, Chercheurs, Marchands de produits chimiques
+et/ou instruments de labo
+
+Scientifiques et chercheurs niveau moyen-âge. Ils arrivent presque à faire des
+machines à vapeur. Les érudits vivent dans le Curatorium. Les plus grands
+érudits ont accès au Tribunal et instruisent les futurs juges.
+
+
+
+Soldats => militaires de tout grades. Ils se battent contre le Rempart
+(faction Nain) et les sous-sylvains (faction elfe) pour le contrôle des zones
+importantes. Une unité spécialiste des monstres et de la chasse existe.
+
+
+
+Inquisiteurs => Police religieuse et politiques. Leur mission et de garder le
+contrôle de la cité et de récupérer les différents écrits et vestiges des 
+surfaciens.
