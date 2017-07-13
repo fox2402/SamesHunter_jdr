@@ -28,7 +28,7 @@ Chaque exploit/bonne action octroit un certain nombre de points.
 
 Ce nombre de points est décidé par la lignée des juges en se basant sur le 
 Codex et leur propre jugement de la situation. En cas de désaccord entre les 
-juges, Gavranth le juge suprême tranche.
+juges, Gavranth le Juge Suprême tranche.
 
 Chaque personne accomplissant une bonne action doit remplir un formulaire 
 détaillant les événements et le soumettre au Tribunal en jurant devant
@@ -48,11 +48,19 @@ lignée signifiera la fin du Gouvernement.
 
 
 Le pouvoir de l'Eau-De-Roche n'est pas parfait et peut être déjoué en jouant sur
-les mots lors du serment. Le syndicat  (mafia) l'a découvert et abuse de cela en
-rachetant/vendant les actions d'autres personnes qui ne sont pas intéressé par
-le pouvoir politique pour asseoir leur place au conseil et influencer sur les
-décisions économique à leur avantage. Le syndicat est constitué de marchands
+les mots lors du serment. Le Syndicat (mafia) l'a découvert et abuse de cela en
+rachetant/vendant les actions d'autres personnes qui ne sont pas intéressées
+par le pouvoir politique pour asseoir leur place au conseil et influencer les
+décisions économiques à leur avantage. Le Syndicat est constitué de marchands
 (Travailleurs et Érudits. Quelques soldats. Aucun inquisiteurs)
+
+Le Syndicat est souvent vu comme une vieille légende, une rumeur qui cours les
+rues. Le Conseil 4 évite d'aborder le sujets car certains de ces membres n'y
+croient tout simplement pas (Soldats) ou sont trop superstitieux pour s'y
+risquer (Travailleurs) ou ne s'y intéressent pas (Erudits). Les précédents membres
+ayant tenter de s'intéresser au Syndicat ont vite été décommissionés par vote
+ou se sont résignés d'eux-même. Seul l'Inquisition semble exempte de ces craintes
+mais sans l'aval d'au moins une autre partie rien ne peut être fait.
 
 
 
@@ -71,19 +79,22 @@ Actuellement, "La Main" est Aaryn Galls (41ans), un ancien paysan qui après avo
 intégré les laboratoires du Curatorium (section mécanique) a largement 
 contribué au 1er prototype de charrue à vapeur. Cela lui a valu de
 nombreux votes de la part des travailleurs des chants ainsi qu'une partie
-des points attribués à la création de l'engin.
+des points attribués à la création de l'engin. Néanmoins, beaucoup pensent
+que cela n'aurait pas dû être suffisant pour battre le 2nd en lice pour
+le Conseil 4, Desmond Golfiere, et que Galls aurait reçu de l'aide de
+la part du légendaire Syndicat.
 
 
 
 Érudits => Alchimiste, Mécaniciens, Chercheurs, Marchands de produits chimiques
 et/ou instruments de labo
 
-Scientifiques et chercheurs niveau moyen-âge. Ils arrivent presque à faire des
+Scientifiques et chercheurs du niveau fin du moyen-âge. Ils arrivent presque à faire des
 machines à vapeur. Les érudits vivent dans le Curatorium. Les plus grands
 érudits ont accès au Tribunal et instruisent les futurs juges.
 
 Le représentant des érudits reçoit le titre " Le Grimoire".
-Actuellement, "Le Grimoire" est Laurelyn Stein (63ans), qui est responsable de plus
+Actuellement, "Le Grimoire" est Laurelyne Stein (63ans), qui est responsable de plus
 de la moitié des informations contenues dans "Le Bestiaire". Elle a dévoué
 sa vie à la recherche des monstres et son savoir représenterait 1/10ème
 des livres du Curatorium selon les rumeurs.
@@ -92,7 +103,8 @@ des livres du Curatorium selon les rumeurs.
 
 Soldats => militaires de tout grades. Ils se battent contre le Rempart
 (faction Nain) et les sous-sylvains (faction elfe) pour le contrôle des zones
-importantes. Une unité spécialiste des monstres et de la chasse existe.
+importantes. Une unité spécialiste des monstres et de la chasse existe ainsi
+qu'une unité de duellistes qui combattent dans les arènes.
 
 Le représentant des soldats reçoit le titre "La Lance".
 Actuellement, "La Lance" est Borg Legae (29ans), qui s'est illustré dans
@@ -117,7 +129,8 @@ cette pierre de pouvoir l'a immédiatement propulsé à la place de "Manteau" du
 Conseil 4. Sa foi est toujours très largement contesté mais ses enquêtes ont
 rarement été infructueuses jusqu'ici et certains racontent que la jeune
 inquisitrice serait capable de vaincre "La Lance" en combat singulier ce qui
-lui vaut de conserver sa place de peu à chaque votes populaires.
+lui vaut de conserver sa place de peu à chaque votes populaires, d'autres
+pensent que le Syndicat serait dérrière son ascension.
 
 Juges => Gardiens du Codex. Ils vivent toute leur vie enfermé dans le Tribunal
 a géré les rapports d'accomplissements et de crimes de la cité.
@@ -130,7 +143,7 @@ juges et la vie à l'intérieur du Tribunal si ce n'est que Gravranth a été
 instruit par le précèdent conservateur du Curatorium et que ce dernier lui
 aurait révélé certains savoirs réservés uniquement aux plus grands érudits de
 l'histoire. L'autorité de Gavranth n'a jamais été contesté depuis son arrivé
-au poste contrairement à son prédecesseur qui a dû être déstitué suite à
+au poste contrairement à Cyd, son prédecesseur, qui a dû être déstitué suite à
 de nombreux conflits entre juges ainsi que l'émeute des Travailleurs. Samantha
 "Le Manteau" Maellus éprouve un grand respect à l'égard de Gavranth et n'accepte
 aucune mise en cause de son autorité (Le "Manteau" est l'une des seules à avoir
