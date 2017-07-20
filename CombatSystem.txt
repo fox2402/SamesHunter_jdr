@@ -1,0 +1,60 @@
+Combat system rules:
+
+Stats: - Const => HP and Stamina modifier
+       - Force => Damage and Parry modifier
+       - Agility => Dodge and Precision modifier
+       - Intelligence => Deduction and Spell power modifier
+       - Wisdom => Resistance and Spell efficiency modifier
+       
+       HP = 8 + Const.mod
+       Stamina = 12 + Const.mod
+       
+
+Actions:
+
+2 actions are allowed per turns. Only the SnS, TB and LBW can attack twice per turn.
+Actions consume stamina. Not using an action during your turn gives 2 stamina.
+
+  - Dodge => 8 + Agility.mod
+             If success then damage is reduced to 0
+                             PC is replaced within a 1m radius
+                        else damage is multiplied by 1.2
+             Stamina cost = Weapon_stamina_cost
+                        
+  - Parry => 8 + Force.mod + Guard.level
+             If success then damage is multiplied by 0.5
+                             PC lose the same number as stamina
+                        else damage is multiplied by 0.8
+                             PC lose the same number as stamina
+             Stamina cost = Weapon_stamina_cost - Weapon_guard_level
+                             
+  - Move => Move to a close location
+            Requires no rolls unless specific situations
+            
+  - Attack => Execute one of your weapons move or a custom move
+
+Weapons:
+
+Each weapons has a base atk, guard level, stamina cost and a basic move set.
+Each move has a damage multiplier, target pattern, bonus and a damage type.
+Custom move can be made during a battle and the GM will adjust the move characteristics.
+
+  - Great Sword -> High atk (6)                 circular strike: 40%, AoE(1m), +1 against dodge
+                -> Medium guard (2)             vertical strike: 60%, Single target, +1 against parry
+                -> High stamina cost (3)        charged strike: 130%, Single target, +3 against parry
+  (slicing)                                                     (consumes 3 actions)
+  
+  - Long Sword -> High atk (6)                  horizontal slash: 40%, Cone(1m), +1 against dodge
+               -> No guard                      vertical slash: 60%, Single target, +1 against parry
+               -> Medium stamina cost (2)       low stance: 50%, Dodge (+2) without replacement, Counterattack
+  (slicing)                                                 (consumes 2 actions)
+  
+  - Hammer -> High atk (6)                      horizontal smash: 40%, Cone(1m), +1 against dodge
+           -> No guard                          upward smash: 60%, Single target, +1 against parry
+           -> High stamina cost (3)             overhead smash: 80%, Single target, +3 against parry
+  (blunt)                                                       (consumes 5 stamina instead of 3)
+  
+  - Sword and Shield -> Low atk (3)             horizontal cut: 30%, Cone(.5m), +1 against dodge
+                     -> Low guard (1)           vertical cut: 50%, Single target
+                     -> Low stamina cost (1)    Coup de grace: 300%, Single target, cannot parry next turn
+  (slicing)                                                    (Jump towards the target, consumes 3 actions)
