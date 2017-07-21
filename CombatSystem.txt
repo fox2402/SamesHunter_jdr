@@ -9,11 +9,19 @@ Stats: - Const => HP and Stamina modifier
        HP = 8 + Const.mod
        Stamina = 12 + 2 * Const.mod
        
+Stats are rolled however the players want to (ex: d20, best of 3 d6)
+A stat modifier works just like in Pathfinder.
 
 Actions:
 
 2 actions are allowed per turns. Only the SnS, TB and LBW can attack twice per turn.
 Actions consume stamina. Not using an action during your turn gives 3 stamina.
+
+Dodge and Parry are done preemptively during the players turn.
+An enemy trying to attack a dodging/parrying character will have to roll a d20
+with a higher score than the target dodge/parry score.
+
+Targets who did not roll to dodge or parry will always take the attack.
 
   - Dodge => 8 + Agility.mod
              If success then damage is reduced to 0
