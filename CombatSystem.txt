@@ -41,6 +41,8 @@ Custom move can be made during a battle and the GM will adjust the move characte
 Heavy weapons add the Force.mod to the precision score and base atk.
 Light weapons add the Agility.mod to the precision score and the Force.mod to the base atk.
 
+Damage_inflicted = ((weapon.atk + force.mod) * atk_multiplier) - target.defence
+
   - Great Sword -> High atk (6)                 circular strike: 40%, AoE(1m), +1 against dodge
                 -> Medium guard (2)             vertical strike: 60%, Single target, +1 against parry
                 -> High stamina cost (3)        charged strike: 130%, Single target, +3 against parry
