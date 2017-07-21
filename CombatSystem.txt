@@ -38,23 +38,47 @@ Weapons:
 Each weapons has a base atk, guard level, stamina cost and a basic move set.
 Each move has a damage multiplier, target pattern, bonus and a damage type.
 Custom move can be made during a battle and the GM will adjust the move characteristics.
+Heavy weapons add the Force.mod to the precision score and base atk.
+Light weapons add the Agility.mod to the precision score and the Force.mod to the base atk.
 
   - Great Sword -> High atk (6)                 circular strike: 40%, AoE(1m), +1 against dodge
                 -> Medium guard (2)             vertical strike: 60%, Single target, +1 against parry
                 -> High stamina cost (3)        charged strike: 130%, Single target, +3 against parry
-  (slicing)                                                     (consumes 3 actions)
+  (Slicing, Heavy)                                              (consumes 3 actions)
   
   - Long Sword -> High atk (6)                  horizontal slash: 40%, Cone(1m), +1 against dodge
                -> No guard                      vertical slash: 60%, Single target, +1 against parry
                -> Medium stamina cost (2)       low stance: 50%, Dodge (+2) without replacement, Counterattack
-  (slicing)                                                 (consumes 2 actions)
+  (Slicing, Light)                                          (consumes 2 actions)
   
   - Hammer -> High atk (6)                      horizontal smash: 40%, Cone(1m), +1 against dodge
            -> No guard                          upward smash: 60%, Single target, +1 against parry
            -> High stamina cost (3)             overhead smash: 80%, Single target, +3 against parry
-  (blunt)                                                       (consumes 5 stamina instead of 3)
+  (Blunt, Heavy)                                                (consumes 5 stamina instead of 3)
   
   - Sword and Shield -> Low atk (3)             horizontal cut: 30%, Cone(.5m), +1 against dodge
                      -> Low guard (1)           vertical cut: 50%, Single target
-                     -> Low stamina cost (1)    Coup de grace: 300%, Single target, cannot parry next turn
-  (slicing)                                                    (Jump towards the target, consumes 3 actions)
+                     -> Low stamina cost (1)    coup de grace: 300%, Single target, cannot dodge next turn
+  (Slicing, Light)                                             (Jump towards the target, consumes 3 actions)
+  
+  - Twin Blades -> Low atk (3)                  crossed cut: 30% x2, Cone(.5m), +1 against dodge
+                -> No guard                     whirlwind cut: 50% x2, AoE(.5m), +1 against dodge
+                -> Low stamina cost (1)         demonic stance: Can execute 3 actions per turn
+                                                                (+2 to all stamina costs)
+  (Slicing, Light)
+  
+  - Lance -> Medium atk (5)                     horizontal swipe: 30%, Cone(1m), +1 against dodge
+          -> High guard (4)                     forward lunge: 50%, Line(2m), Forward(1m)
+          -> High stamina cost (3)              perfect guard: Parry only hurts stamina, generates enmity
+  (Slicing, Heavy)                                              (consumes 2 actions, enmity = blocked_damage)
+  
+  - GunLance -> Medium atk (4)                  piercing attack: 30%, Line(1m), can be followed by 'cartridge shot'
+             -> Shot power (4)                  cartridge shot: 80%, Cone(1m), can be followed by 'reload', ends turn
+             -> High guard (4)                  reload: reloads your cartridge barrel, ends turn
+             -> High stamina cost (3)           Wyvern fire: 350%, Cone(3m), ignores defence
+  (Slicing, Heavy)                                           (consumes all cartridges and 4 actions)
+  
+  - Bow -> High atk (5)                         Straight shot: 30%, Line(12m)
+        -> No guard                             Multiple shot: 20%, Cone(8m), +1 against dodge
+        -> Medium stamina cost (2)              Focus (passive): Consumes X action(s) up to 3, enhance next attack
+  (Penetrating, Light)                                           (next attack will deal X times more damage)
