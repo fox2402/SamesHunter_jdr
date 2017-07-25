@@ -11,6 +11,8 @@ Stats: - Const => HP and Stamina modifier
        
 Stats are rolled however the players want to (ex: d20, best of 3 d6)
 A stat modifier works just like in Pathfinder.
+A player at 0 or below will be knocked out.
+A player at his max HP in negative or below will die.
 
 Actions:
 
