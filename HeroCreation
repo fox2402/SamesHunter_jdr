@@ -1,0 +1,177 @@
+How to create a character:
+
+=> Name
+=> Stats
+=> Talents
+=> Class
+=> Lineage
+=> Weapon
+=> Armor
+=> Nanite
+
+
+
+Stats: - Constitution => HP and Stamina modifier
+       - Force => Damage and Parry modifier
+       - Agility => Dodge and Precision modifier
+       - Intelligence => Deduction and Spell power modifier
+       - Wisdom => Resistance and Spell efficiency modifier
+       
+       HP = 8 + Const.mod
+       Stamina = 12 + 2 * Const.mod
+       
+Stats are rolled however the players want to (ex: d20, best of 3 d6)
+A stat modifier works just like in Pathfinder.
+
+
+
+Talents:
+
+Talents are abilities your hero naturally possesses or granted by his pieces of equipement.
+They have various effects from stats boosting to changing attack patterns.
+A character gets (1 + Int.mod) talent points per level.
+
+ - Life => Add 1 hp for each level
+ - Vigour => Add 2 stamina for each level
+ - Marathon => Reduce stamina use by 1 for each level (max 50% of initial cost)
+ - Energy => Add 1 stamina regeneration per unused actions
+ - Power => Add 1 Force for each level
+ - Sturdy => Add 1 bonus point to parry checks for each level
+ - Light => Add 1 Agility for each level
+ - Slippery => Add 1 bonus point to dodge checks for each level
+ - Smart => Add 1 Intelligence for each level
+ - Keen eye => Add 1 bonus point to detect checks for each level
+ - Sagacity => Add 1 Wisdom for each level
+ - Protection => Add 1 bonus point to resistance checks for each level
+ - Steadfast => Transfers additional 5% of the damage to hp on parry to stamina for each level (max 4)
+ - Unwaverring => Reduce damage to hp taken on successful parry by 10% for each level (max 3)
+ 
+ - Art of drawing => Reduce by 6 the score required to critical hit on the 1st hit
+ - Concentration => Add 20% damage to attacks consuming 3 actions or more
+ - Ninja => Reduce enmity generation by 20%
+ - Paragon => Add 20% to enmity generation
+
+
+
+Class:
+
+Your character can be part of one of the four main classes of the Gouvernment.
+
+  - Scholar: Intelligent scientists and wise philsophers
+             (-1 Constitution, -1 Force, +1 Intelligence, +1 Wisdom)
+  - Soldier: Powerful warriors and experimented hunters
+             (+1 Constitution, +1 Force, -1 Intelligence, -1 Wisdom)
+  - Inquisitor: Swift peacekeepers and coldheaded investigators
+             (-1 Force, +1 Agility, +1 Intelligence, -1 Wisdom)
+  - Worker: Perseverant farmers and shrewd merchants
+             (+1 Constitution, -1 Agility, -1 Intelligence, +1 Wisdom)
+
+
+
+Lineage:
+
+Regardless of their rank, certain nanites have a certain type of lineage they belong to.
+Your character lineage will decide which type of nanites you will be able to use throughout the adventure.
+Lineage corresponds to the job your surfacean ancesters had and will unlock nanites' power
+in correlation to that job. Lineage and Class do not have to be tied but they usually are.
+
+  [Recommended Scholar]
+  - Physician (Healer): Allows the use of healing nanites
+                        Starts with a rank-C nanite "Healing touch"
+                        Single target(.5m), Heal (d4 - 2) + Int.modifier
+  - Shrink (Support): Allows the use of protective nanites
+                      Starts with a rank-C nanite "Cheer"
+                      Single target(.5m), Grant the target +1 action, (3 turn cooldown)
+  - Chemist (Caster): Allows the use of chemical nanites
+                      Starts with a rank-C nanite "Flame"/"Snow" or "Sparkling"/"Drop"
+                      Single target(3.5m), deal (d4 - 1) + Int.modifier
+  [Recommended Worker]
+  - Artisan (Ingeneer): Allows the use of building nanites
+  - Farmer (Beastmaster): Allows the use of taming and gathering nanites
+  - Salesman (Witch): Allows the use of bluffing and disorienting nanites
+  [Recommended Soldier]
+  - Infantry (Tank): Allows the use of defensive nanites
+  - Commando (Berzerk): Allows the use of offensive nanites
+  - Athlete (Rogue): Allows the use of evasive nanites
+  [Recommended Inquisitor]
+  - Martial artist (Monk): Allows the use of self-enhancing nanites
+  - Detective (Assassin): Allows the use of detection and deduction nanites
+  - Explorer (Thief): Allows the use of stealth and sneaking nanites
+  
+Weapon:
+
+Each weapon has a base atk, guard level, stamina cost and a basic move set.
+Each move has a damage multiplier, target pattern, bonus and a damage type.
+Custom move can be made during a battle and the GM will adjust the move characteristics.
+Heavy weapons add the Force.mod to the precision score and base atk.
+Light weapons add the Agility.mod to the precision score and the Force.mod to the base atk.
+
+Choose one to begin your adventure with. You may forge new ones later.
+
+  - Great Sword -> High atk (6)                 circular strike: 40%, AoE(1m), +1 against dodge
+                -> Medium guard (2)             vertical strike: 60%, Single target, +1 against parry
+                -> High stamina cost (3)        charged strike: 130%, Single target, +3 against parry
+  (Slicing, Heavy)                                              (consumes 3 actions)
+  
+  - Long Sword -> High atk (6)                  horizontal slash: 40%, Cone(1m), +1 against dodge
+               -> No guard                      vertical slash: 60%, Single target, +1 against parry
+               -> Medium stamina cost (2)       low stance: 50%, Dodge (+2) without replacement, Counterattack
+  (Slicing, Light)                                          (consumes 2 actions)
+  
+  - Hammer -> High atk (6)                      horizontal smash: 40%, Cone(1m), +1 against dodge
+           -> No guard                          upward smash: 60%, Single target, +1 against parry
+           -> High stamina cost (3)             overhead smash: 80%, Single target, +3 against parry
+  (Blunt, Heavy)                                                (consumes 5 stamina instead of 3)
+  
+  - Sword and Shield -> Low atk (3)             horizontal cut: 30%, Cone(.5m), +1 against dodge
+                     -> Low guard (1)           vertical cut: 50%, Single target
+                     -> Low stamina cost (1)    coup de grace: 300%, Single target, cannot dodge next turn
+  (Slicing, Light)                                             (Jump towards the target, consumes 3 actions)
+  
+  - Twin Blades -> Low atk (3)                  crossed cut: 30% x2, Cone(.5m), +1 against dodge
+                -> No guard                     whirlwind cut: 50% x2, AoE(.5m), +1 against dodge
+                -> Low stamina cost (1)         demonic stance: Can execute 3 actions per turn
+                                                                (+2 to all stamina costs, cannot be reduced)
+  (Slicing, Light)
+  
+  - Lance -> Medium atk (5)                     horizontal swipe: 30%, Cone(1m), +1 against dodge
+          -> High guard (4)                     forward lunge: 50%, Line(2m), Forward(1m)
+          -> High stamina cost (3)              perfect guard: Parry only hurts stamina, generates enmity
+  (Slicing, Heavy)                                             (consumes 2 actions, enmity = blocked_damage)
+  
+  - GunLance -> Medium atk (4)                  piercing attack: 30%, Line(1m), can be followed by 'cartridge shot'
+             -> Shot power (4)                  cartridge shot: 80%, Cone(1m), can be followed by 'reload', ends turn
+             -> High guard (4)                  reload: reloads your cartridge barrel, ends turn
+             -> High stamina cost (3)           Wyvern fire: 350%, Cone(3m), ignores defence
+  (Slicing, Heavy)                                           (consumes all cartridges and 4 actions)
+  
+  - Bow -> High atk (5)                         Straight shot: 30%, Line(12m)
+        -> No guard                             Multiple shot: 20%, Cone(8m), +1 against dodge
+        -> Medium stamina cost (2)              Focus (passive): Consumes X action(s) up to 3, enhance next attack
+  (Penetrating, Light)                                           (next attack will deal X times more damage)
+  
+  
+  
+Armors:
+
+Each armor has resistances, defences, talents and weight.
+Resistance lowers the chances of being affected by a debuff and the damage from elemental attacks.
+Defence lowers the damage from physical attacks of different types (Slicing, Blunt, Penetrating)
+Talents grants the character with special abilities (More hp, Less stamina consumption, etc...)
+High weight increases the stamina cost for movements/dodges
+Low weight increases the stamina cost for parries
+
+You may choose the composants of your 1st armor and its weight. (No Talent)
+
+An armor's characteristics are determined by its composants:
+  - Hides and furs protect against blunt attacks.
+  - Scales and skins protect against slicing attacks.
+  - Shells and bones protect against penetrating attacks.
+
+An armor's efficiency is determined by its weight:
+  - Light armor grants +.5 defence
+  - Medium armor grants +1 defence and +1 stamina cost on dodge
+  - Heavy armor grants +1.5 defence and +2 stamina cost on dodge
+  
+Defence, type coverage and all the other armor characteristics can be changed and upgraded
+with monster materials and a smith.
