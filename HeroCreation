@@ -79,12 +79,15 @@ in correlation to that job. Lineage and Class do not have to be tied but they us
   - Physician (Healer): Allows the use of healing nanites
                         Starts with a rank-C nanite "Healing touch"
                         Single target(.5m), Heal (d4 - 2) + Int.modifier
+                        (consume 1 action, only once per turn)
   - Shrink (Support): Allows the use of protective nanites
                       Starts with a rank-C nanite "Cheer"
-                      Single target(.5m), Grant the target +1 action, (3 turn cooldown)
+                      Single target(.5m), Grant the target +1 action
+                      (consume 1 action, only once per turn, 3 turn cooldown)
   - Chemist (Caster): Allows the use of chemical nanites
                       Starts with a rank-C nanite "Flame"/"Snow" or "Sparkling"/"Drop"
                       Single target(3.5m), deal (d4 - 1) + Int.modifier
+                      (consume 1 action, only once per turn)
   [Recommended Worker]
   - Artisan (Ingeneer): Allows the use of building nanites
   - Farmer (Beastmaster): Allows the use of taming and gathering nanites
