@@ -30,7 +30,7 @@ Targets who did not roll to dodge or parry will always take the attack.
   - Move => Move to a close location
             Requires no rolls unless specific situations
             
-  - Attack => Execute one of your weapons move or a custom move
+  - Attack => Execute one of your weapons or nanites move or a custom move
 
 Weapons:
 
