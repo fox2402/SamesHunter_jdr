@@ -90,16 +90,39 @@ in correlation to that job. Lineage and Class do not have to be tied but they us
                       (consume 1 action, only once per turn)
   [Recommended Worker]
   - Artisan (Ingeneer): Allows the use of building nanites
+                        Starts with a rank-C nanite "Wyvernian gloves"
+                        Allows the user to forge armors and weapons
+                        (Maximum of 2 upgrades)
   - Farmer (Beastmaster): Allows the use of taming and gathering nanites
-  - Salesman (Witch): Allows the use of bluffing and disorienting nanites
+                          Starts with a rank-C nanite "Carving knife"
+                          Add +1 to the user's ressource collecting rolls
+  - Merchant (Witch): Allows the use of bluffing and disorienting nanites
+                      Starts with a rank-C nanite "Megaphone"
+                      Allows the user to use bluff on multiple targets in a 25m radius
   [Recommended Soldier]
   - Infantry (Tank): Allows the use of defensive nanites
+                     Starts with a rank-C nanite "Ointment"
+                     Yourself, Heal 6HP
+                     (consume 1 action, 3 turn cooldown)
   - Commando (Berzerk): Allows the use of offensive nanites
+                        Starts with a rank-C nanite "Stimulant"
+                        Yourself, Heal 6 Stamina
+                        (consume 1 action, 3 turn cooldown)
   - Athlete (Rogue): Allows the use of evasive nanites
+                     Starts with a rank-C nanite "Soap coating"
+                     Yourself, Add +2 to dodge rolls
+                     (consume 1 action, 3 turn cooldown)
   [Recommended Inquisitor]
   - Martial artist (Monk): Allows the use of self-enhancing nanites
+                           Starts with a rank-C nanite "Vitality"
+                           Yourself, Heal 1HP/turn for 4 turns
+                           (consumes 1 action, 6 turn cooldown)
   - Detective (Assassin): Allows the use of detection and deduction nanites
+                          Starts with a rank-C nanite "Magnifying glass"
+                          Add +1 to the user's detection rolls
   - Explorer (Thief): Allows the use of stealth and sneaking nanites
+                      Starts with a rank-C nanite "Adhesive grip"
+                      Add +1 to the user's acrobatic rolls
   
 Weapon:
 
